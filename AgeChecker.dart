@@ -1,0 +1,1 @@
+import 'dart:io'; void main() { print("Age Checker System"); print("Input your age:"); int age = int.parse(stdin.readLineSync()!); String result = ageChecker(age); print(result); } String ageChecker(int age) { if (age >= 18) { return "You are an Adult"; } else { return "You are a Minor"; } }
